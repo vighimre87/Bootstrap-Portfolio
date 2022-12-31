@@ -12,11 +12,12 @@
 
   <!-- Header and Navbar with name and links to the sections of the page -->
   <header>
+    <!-- Navbar -->
     <nav class="navbar-main">
       <div class="nav-links">
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" href="#">About Me</a>
+            <a class="nav-link active" href="#about">About Me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#work">Work</a>
@@ -30,6 +31,7 @@
         </ul>
       </div>
     </nav>
+    <!-- End of navbar -->
   </header>
 
   <!-- Hero section with a profile picture -->
@@ -42,12 +44,100 @@
       <img class="profile-pic" src="images/profile-pic-cropped.jpg" alt="A profile picture about the author" height="200px" width="200px">
     </div>
   </div>
+  <!-- End of Hero section -->
 
-  <!-- Work section -->
+  <main class="page-wrapper">
+
+    <!-- About Section -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <!-- Profile picture section -->
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="images/profile-pic2.jpg" class="img-fluid rounded b-shadow-a" alt="Another profile picture about me while hiking">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Imre Vigh</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Frontend Web Developer</span></p>
+                        <p><span class="title-s">Email: </span> <span>vighimre87@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(+44) 7123579420</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>HTML</span> <span class="pull-right">80%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>CSS3</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Git, GitHub</span> <span class="pull-right">70%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>ReactJS</span> <span class="pull-right">80%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of profile picture section -->
+
+                <!-- About Me text section -->
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus accumsan odio,
+                      non pulvinar felis sodales eget. Vestibulum mauris elit, tincidunt vitae tortor a,
+                      lacinia vestibulum ante. Donec imperdiet, neque sed suscipit accumsan, leo dui sollicitudin tortor,
+                      eu iaculis felis augue ut orci. Phasellus finibus hendrerit tellus. Etiam ullamcorper fringilla risus,
+                      in ultrices nunc consectetur id. Vivamus ligula elit, gravida vitae risus ac, auctor luctus enim.
+                      In pharetra neque id tellus luctus rhoncus. Nunc sit amet est in est porta aliquet.
+                    </p>
+                    <p class="lead">
+                      Aliquam tincidunt scelerisque lectus id mollis. Donec enim lectus, aliquet vel dictum nec,
+                      volutpat eget justo. Cras diam mi, volutpat eu porttitor in, consequat eu nisi.
+                      Cras interdum commodo ex, eu bibendum dui tempor at. Fusce et iaculis massa. Nunc ac nisl posuere enim aliquet mollis.
+                      Vivamus tempor convallis luctus. Praesent vitae tempus risus. Phasellus tincidunt lacus justo, ut faucibus elit bibendum nec.
+                    </p>
+                  </div>
+                </div>
+                <!-- End of About Me text section -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About Me section -->
+  
+    <!-- Work section -->
   <section class="page-section container-fluid" id="work">
     <h2 class="sectionHeading" id="work-section-heading">Projects</h2>
+    <!-- First row -->
     <div class="container">
       <div class="row" id="first-row">
+        <!-- First card -->
         <div class="col-sm">
           <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="images/portfolio-cover.jpg" alt="Card image cap">
@@ -58,6 +148,9 @@
             </div>
           </div>
         </div>
+        <!-- The end of the first card -->
+
+        <!-- Second card -->
         <div class="col-sm">
           <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="images/california.jpg" alt="Card image cap" height="190.66px">
@@ -68,6 +161,9 @@
             </div>
           </div>
         </div>
+        <!-- End of second card -->
+
+        <!-- Third card -->
         <div class="col-sm">
           <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="images/CSS_Cheat_Sheet.png" alt="Card image cap" height="190.66px">
@@ -78,13 +174,18 @@
             </div>
           </div>
         </div>
+        <!-- End of third card -->
       </div>
     </div>
+    <!-- End of first row -->
+
+    <!-- Second Row -->
     <div class="container" id="second-row">
       <div class="row">
+        <!-- Fourth card -->
         <div class="col-sm">
           <div class="card" style="width: 18rem;" height="250px">
-            <img class="card-img-top" src="images/landing-page.jpg" alt="Card image cap">
+            <img class="card-img-top" src="images/landing-page3.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Landing Page</h5>
               <p class="card-text">This is a very simple landing page made with pure HTML and CSS.</p>
@@ -92,20 +193,41 @@
             </div>
           </div>
         </div>
+        <!-- End of fourth card -->
+
+        <!-- Fifth Card -->
         <div class="col-sm">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/01-html-css-git-challenge-demo.png" alt="Card image cap" height="190.85px">
+            <img class="card-img-top" src="images/debugging.jpg" alt="Card image cap" height="190.85px">
             <div class="card-body">
               <h5 class="card-title">Code Debugging Challenge</h5>
-              <p class="card-text">This website has been made as a part of a debugging challenge as the starter code didn't work.</p>
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <p class="card-text">This website has been made as a part of a debugging challenge as the starter code didn't work at some part of the HTML.</p>
+              <a href="https://vighimre87.github.io/HTML_CSS_Git_Challenge/" class="btn btn-primary">Learn more</a>
             </div>
           </div>
         </div>
+        <!-- End of Fifth Card -->
+
+        <!-- Sixth Card -->
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/prework-study-guide.png" alt="Card image cap" height="190.85px">
+            <div class="card-body">
+              <h5 class="card-title">Prework Study Guide</h5>
+              <p class="card-text">This Prework Study Guide was created for bootcamp students who were going through the Prework. It contains notes on HTML, CSS, Git, and JavaScript.</p>
+              <a href="https://vighimre87.github.io/prework-study-guide/" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Sixth Card -->
       </div>
     </div>
+    <!-- End of Second Row -->
   </section>
+  <!-- End of Work section -->
 
+
+  </main>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
