@@ -88,11 +88,6 @@ nav {
 	background-color: #0078ff;
   }
 
-  /* #personal-data-container {
-	justify-items: flex-end;
-	padding-bottom: 50px;
-  } */
-
 
 /* Work section */
 #work {
@@ -119,4 +114,15 @@ nav {
 
 .card-body {
 	text-align: center;
+}
+
+/* Contact Me section */
+#contact {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.col-5 h2 {
+	text-align: center;
+	padding-bottom: 10px;
 }
