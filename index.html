@@ -14,7 +14,7 @@
   <header>
     <!-- Navbar -->
     <nav class="navbar-main">
-      <div class="nav-links">
+      <div class="nav-links container-fluid">
         <ul class="nav justify-content-end">
           <li class="nav-item">
             <a class="nav-link active" href="#about">About Me</a>
@@ -35,13 +35,13 @@
   </header>
 
   <!-- Hero section with a profile picture -->
-  <div class="jumbotron">
+  <div class="jumbotron container-fluid">
+    <div class="circular-portrait float-left">
+      <img class="profile-pic img-fluid" src="images/profile-pic-cropped.jpg" alt="A profile picture about the author" height="200px" width="200px">
+    </div>
     <div class="jumboCopy">
       <h1 class="display-4">I am Imre Vigh</h1>
       <p class="lead">Frontend Web developer</p>
-    </div>
-    <div class="circular-portrait">
-      <img class="profile-pic" src="images/profile-pic-cropped.jpg" alt="A profile picture about the author" height="200px" width="200px">
     </div>
   </div>
   <!-- End of Hero section -->
@@ -49,7 +49,7 @@
   <main class="page-wrapper">
 
     <!-- About Section -->
-    <section id="about" class="about-mf sect-pt4 route">
+    <section id="about" class="about-mf sect-pt4">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -229,7 +229,7 @@
 
   <!-- Contact Me Section -->
   <section class="container-fluid" id="contact">
-    <div class="container-fluid col-5">
+    <div class="container-fluid col-5 box-shadow-full">
       <h2>Contact Me</h2>
       <form>
         <div class="form-group">
@@ -253,7 +253,7 @@
   </main>
 
   <!-- Footer Section -->
-  <footer class="bg-dark text-center text-white">
+  <footer class="bg-dark text-center text-white container-fluid">
     <!-- Grid container -->
     <div class="container p-4 pb-0 social-media">
       <!-- Section: Social media -->
@@ -285,8 +285,7 @@
   
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright:
-      <a class="text-white" href="#">Imre Vigh</a>
+      <p class="copyright">© 2022 Copyright: <strong>Imre Vigh</strong></p>
     </div>
     <!-- Copyright -->
   </footer>
