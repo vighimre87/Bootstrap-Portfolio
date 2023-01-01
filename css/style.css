@@ -17,6 +17,19 @@ p {
 	font-weight: 400;
 }
 
+a:hover {
+	color: #0078ff;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	border-bottom: 3px solid rgb(231, 220, 220);
+}
+
+button:hover, button:focus {
+	box-shadow: 0 0.5em 0.5em -0.4em rgb(73, 60, 86);
+	transform: translateY(-0.25em);
+}
+
+
 /* Navbar and navigation links */
 nav {
 	color: var(--fnt-white);
