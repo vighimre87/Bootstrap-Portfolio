@@ -25,16 +25,16 @@ a:hover {
 	border-bottom: 3px solid var(--blue-color);
 }
 
-button:hover, button:focus {
-	box-shadow: 0 0.5em 0.5em -0.4em rgb(73, 60, 86);
-	transform: translateY(-0.25em);
+.btn:hover, .btn:focus {
+	box-shadow: 1em 1em 1em -1em rgb(22, 29, 133) !important;
+	transform: translateY(-0.25em) !important;
 }
 
 /* Box shadow effect in About Me and Contact Me sections*/
 .box-shadow-full {
 	padding: 3rem 1.25rem;
 	position: relative;
-	background-color: rgb(239, 242, 237);
+	background-color: rgb(230, 225, 225);
 	margin-bottom: 3rem;
 	z-index: 2;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -188,6 +188,7 @@ nav {
 
 .card-body {
 	text-align: center;
+	background-color: rgb(230, 225, 225);
 }
 
 /* Contact Me section */
@@ -202,6 +203,10 @@ nav {
 }
 
 /* Footer Section */
+footer {
+	color: var(--fnt-white);
+}
+
 .bg-dark {
 	background-color: var(--bckgrnd-black)!important;
 }
